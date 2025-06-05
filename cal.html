@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calendar</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+    <div class ="contain">
+        <h2 id="calendar-today" class="today">Tháng 6 năm 2025</h2>
+        <h1 id="date-today" class="day">4</h1>
+        <h1 id="week-today" class="week day">Thứ 4</h1>
+        <div class="calendar">
+            <div>
+                <div class="calendar-content">
+                    <div class="calendar-header">CN</div>
+                    <div class="calendar-header">T2</div>
+                    <div class="calendar-header">T3</div>
+                    <div class="calendar-header">T4</div>
+                    <div class="calendar-header">T5</div>
+                    <div class="calendar-header">T6</div>
+                    <div class="calendar-header">T7</div>       
+                </div>
+                <div id="calendar-table"  class="calendar-content"></div>
+            </div>
+        </div>
+    <div class="tab" > 
+        <div id="day-card" class="card" >
+            <div id="date" class="card-title">Day</div>
+        </div>
+    </div>
+        <div class="panel">
+            <div id="last-year" class="panel-control">«</div>
+            <div id="last-month" class="panel-control">‹</div>
+            <select name="days" id="selectDay"></select>
+
+            <div class="">/</div>
+
+            <select name="months" id="selectMonth"></select>
+
+            <div class="">/</div>
+
+            <input type="number" min="1900" max="2999" id="year"/>
+
+            <div id="work" class="key-item">OK</div>
+
+            <div id="next-month" class="panel-control">›</div>
+            <div id="next-year" class="panel-control">»</div>
+            <div id="back-today" class="key-item">@</div>
+        </div>
+    </div>
+
+</body>
+<script  src="cal.js"></script>
+</html>

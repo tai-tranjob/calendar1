@@ -1,0 +1,86 @@
+.contain {
+    width: 870px;
+    height: 590px;
+    padding: 10 20;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.today {
+    text-align: center;
+    font-weight: 600;
+    background-color: rgb(145, 196, 45);
+    width: 100%;
+}
+
+.day {
+    font-weight: 600;
+}
+
+.week {
+    text-align: center;
+
+    width: 100%;
+    text-decoration: underline;
+}
+
+.calendar {
+    padding: 5;
+    border: 1px solid grey;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.calendar-content {
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    gap: 2px;
+    margin-bottom: 5;
+}
+
+.calendar-header {
+    padding: 0 5;
+    width: 100;
+    background-color: rgb(232, 240, 217);
+    text-align: center;
+}
+
+.panel {
+    height: fit-content;
+    display: flex;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    margin-top: 20;
+}
+
+.panel-control {
+    font-size: 20;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.key-item {
+    cursor: pointer;
+    background-color: rgba(240, 255, 255, 0.979);
+    padding: 2 3;
+}
+.tab{
+    display: none;
+}
+.card {
+    height: 55px;
+    padding: 10 15;
+    width: 100;
+    background-color: rgb(218, 226, 204);
+    text-align: center;
+}
+
+.card-title {
+    padding: 17 15;
+    font-weight: 600;
+}
